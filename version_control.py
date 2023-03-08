@@ -8,6 +8,13 @@ def encode(password):
         string = string + str(new)
     return string
 
+def decode(encoded_pass):
+	string = ''
+	for i in password:
+		original = (int(i) + 3) % 10
+		string += str(new)
+	return string
+
 def main():
     choice = 0
     while choice != 3:
